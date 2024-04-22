@@ -1,0 +1,56 @@
+{
+    "gender": "female",
+    "name": {
+        "title": "Miss",
+        "first": "Mércia",
+        "last": "Novaes"
+    },
+    "location": {
+        "street": {
+            "number": 1264,
+            "name": "Rua Quinze de Novembro "
+        },
+        "city": "Jequié",
+        "state": "Roraima",
+        "country": "Brazil",
+        "postcode": 26617,
+        "coordinates": {
+            "latitude": "-77.5975",
+            "longitude": "121.9498"
+        },
+        "timezone": {
+            "offset": "+5:45",
+            "description": "Kathmandu"
+        }
+    },
+    "email": "mercia.novaes@example.com",
+    "login": {
+        "uuid": "bb5c297d-24ec-4766-a2ec-a97f142e8821",
+        "username": "silvermouse651",
+        "password": "toon",
+        "salt": "p4WDzxNj",
+        "md5": "801d98ed47d51eb266cae2e982e7a118",
+        "sha1": "323f86c6afb938538c6860ad70f7fcd95ad93604",
+        "sha256": "81ba0a500f5a88c4ad348207a5683ad5c992cf10f052f633c24013cd15795285"
+    },
+    "dob": {
+        "date": "1970-05-17T18:53:43.230Z",
+        "age": 53
+    },
+    "registered": {
+        "date": "2021-04-08T18:52:19.584Z",
+        "age": 3
+    },
+    "phone": "(21) 8551-0967",
+    "cell": "(50) 8731-4662",
+    "id": {
+        "name": "CPF",
+        "value": "535.294.393-48"
+    },
+    "picture": {
+        "large": "https://randomuser.me/api/portraits/women/6.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/6.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/6.jpg"
+    },
+    "nat": "BR"
+}

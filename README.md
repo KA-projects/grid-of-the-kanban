@@ -4,11 +4,11 @@
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at http://127.0.0.1:4040
 npm run dev
 
 # build for production with minification
@@ -19,4 +19,5 @@ npm run build --report
 ```
 
 # Reference
+
 - [Getting started with Vue, Webpack & Bootstrap](https://medium.com/@BMatt92656920/getting-started-with-vue-webpack-bootstrap-fb69b24e6f3d).

@@ -2,9 +2,9 @@
   <div>
     <h1>User Profile</h1>
     <div>
-      <img :src="user.picture.large" alt="user-photo" />
+      <img class="user_image" :src="user.picture.large" alt="user-photo" />
       <div>
-        <h4>Personal info</h4>
+        <h4>-Personal info-</h4>
         <p>
           <strong>Name: </strong>{{ user.title }} {{ user.name.first }}
           {{ user.name.last }}
@@ -14,7 +14,7 @@
       </div>
 
       <div>
-        <h4>Location</h4>
+        <h4>-Location-</h4>
         <p><strong>City: </strong> {{ user.location.city }}</p>
         <p><strong>Country: </strong> {{ user.location.country }}</p>
         <p>
@@ -24,13 +24,13 @@
       </div>
 
       <div>
-        <h4>Login information</h4>
+        <h4>-Login information-</h4>
         <p><strong>Email: </strong> {{ user.email }}</p>
         <p><strong>Username: </strong> {{ user.login.username }}</p>
       </div>
 
       <div>
-        <h4>Date of Birth</h4>
+        <h4>-Date of Birth-</h4>
         <p>
           <strong>Date: </strong>
           {{ new Date(user.dob.date).toLocaleDateString() }}

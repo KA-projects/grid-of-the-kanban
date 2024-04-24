@@ -10,21 +10,32 @@
           @start="onDragStart(index)"
         >
           <div
-            class="card"
+            class="card-container"
             v-for="(user, userIndex) in column.users"
             :key="userIndex"
           >
-            <div>
-              <router-link :to="'/user/' + user.email">
-                <img :src="user.picture.large" alt="user-photo" />
-                <div>Name : {{ user.name.first }} {{ user.name.last }}</div>
+            <router-link :to="'/user/' + user.email">
+              <div class="card">
                 <div>
-                  Location : {{ user.location.city }},
-                  {{ user.location.country }}
+                  <img
+                    class="card-image"
+                    :src="user.picture.large"
+                    alt="user-photo"
+                  />
                 </div>
-                <div>Phone: {{ user.phone }}</div>
-              </router-link>
-            </div>
+
+                <div class="card-text">
+                  <div>
+                    <b>Name :</b> {{ user.name.first }} {{ user.name.last }}
+                  </div>
+                  <div>
+                    <b>Location :</b> {{ user.location.city }},
+                    {{ user.location.country }}
+                  </div>
+                  <div><b>Phone:</b> {{ user.phone }}</div>
+                </div>
+              </div>
+            </router-link>
           </div>
         </draggable>
         <div v-if="column.users.length === 0">Empty(Drag here)</div>

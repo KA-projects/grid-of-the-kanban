@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --progress --display-error-details",
-    "start": "webpack-dev-server --progress --colors --inline --content-base build"
+    "serve": "webpack-dev-server --progress --colors --inline --content-base build"
   },
   "repository": {
     "type": "git",
